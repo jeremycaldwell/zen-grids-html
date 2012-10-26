@@ -104,7 +104,7 @@ $zen-auto-include-item-base: false;
   /*
    * Use 3 grid columns for smaller screens.
    */
-  $zen-column-count: 10;
+  $zen-column-count: 8;
 
   /*
    * The layout when there is only one sidebar, the left one.
@@ -137,18 +137,15 @@ $zen-auto-include-item-base: false;
    */
   .two-sidebars {
     #content { /* Span 2 columns, starting in 2nd column from left. */
-      @include zen-grid-item(3, 7);
+      @include zen-grid-item(4, 3);
     }
 
     .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
-      background: orange;
+      @include zen-grid-item(2, 1);
     }
 
     .region-sidebar-second { /* Start a new row and span all 3 columns. */
-      @include zen-grid-item(3, 6);
-
-      background: red;
+      @include zen-grid-item(2, 7);
     }
   }
 }
@@ -162,7 +159,7 @@ $zen-auto-include-item-base: false;
   /*
    * Use 5 grid columns for larger screens.
    */
-  $zen-column-count: 5;
+  $zen-column-count: 12;
 
     /*
    * The layout when there is only one sidebar, the left one.
@@ -194,16 +191,16 @@ $zen-auto-include-item-base: false;
    * The layout when there are two sidebars.
    */
   .two-sidebars {
-    #content { /* Span 3 columns, starting in 2nd column from left. */
-      @include zen-grid-item(3, 2);
+    #content { /* Span 6 columns, starting in 4th column from left. */
+      @include zen-grid-item(6, 4);
     }
 
-    .region-sidebar-first { /* Span 1 column, starting in 1st column from left. */
-      @include zen-grid-item(1, 1);
+    .region-sidebar-first { /* Span 3 column, starting in 1st column from left. */
+      @include zen-grid-item(3, 1);
     }
 
-    .region-sidebar-second { /* Span 1 column, starting in 5th column from left. */
-      @include zen-grid-item(1, 5);
+    .region-sidebar-second { /* Span 3 column, starting in 10th column from left. */
+      @include zen-grid-item(3, 10);
     }
   }
 }
