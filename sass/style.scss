@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+@import "base";
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+#skip-link {
+  margin: 0;
+
+  a,
+  a:visited {
+    background-color: #666;
+    color: #fff;
+    display: block;
+    padding: 2px 0 3px 0;
+    text-align: center;
+  }
+}
