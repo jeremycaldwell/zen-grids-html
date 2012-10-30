@@ -532,16 +532,9 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f0e7d5;
+  color: #888;
   font-weight: normal;
-  background: #252525;
-  background-attachment: fixed !important;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
-  background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
-  background: -moz-linear-gradient(#2a2a29, #1c1c1c);
-  background: -o-linear-gradient(#2a2a29, #1c1c1c);
-  background: -ms-linear-gradient(#2a2a29, #1c1c1c);
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -576,16 +569,16 @@ h3 {
   line-height: 24px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
-  color: #b6b6b6;
+  color: #000;
 }
 
 a {
-  color: #ffcc00;
+  color: #D1000E;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #ffeb9b;
+  color: #505050;
 }
 
 a small {
@@ -624,7 +617,8 @@ blockquote {
 
 code {
   font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color: #efefef;
+  color: #000;
+  background: #ddd;
   font-size: 13px;
   margin: 0 4px;
   padding: 4px 6px;
@@ -638,7 +632,7 @@ code {
 
 pre {
   padding: 8px 15px;
-  background: #191919;
+  background: #ddd;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -654,8 +648,8 @@ pre {
   overflow-y: hidden;
 }
 pre code {
-  color: #efefef;
-  text-shadow: 0px 1px 0px #000;
+  color: #000;
+  text-shadow: 0px 1px 0px #fff;
   margin: 0;
   padding: 0;
 }
@@ -793,6 +787,7 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
+  color: #000;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 40px;
@@ -800,7 +795,7 @@ section #title h1 {
   line-height: 36px;
 }
 section #title p {
-  color: #d7cfbe;
+  color: #666;
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -849,3 +844,4 @@ section #title .credits.right {
     display: none;
   }
 }
+
