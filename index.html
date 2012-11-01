@@ -6,23 +6,43 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html><!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	<meta name="MobileOptimized" content="width">
-	<meta name="HandheldFriendly" content="true">
+
+  <meta charset="utf-8">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="cleartype" content="on">
+  <meta http-equiv="cleartype" content="on">
 
-	<title>Zen Grids: sample usage</title>
+  <title>Zen Grids HMTL: Sample Usage</title>
 
-	<link rel="stylesheet" href="css/normalize.css" media="all">
-	<link rel="stylesheet" href="css/layouts/responsive-sidebars.css" media="all">
-	<link rel="stylesheet" href="css/style.css" media="all">
+  <link rel="stylesheet" href="css/normalize.css" media="all">
 
-	<!--[if lt IE 9]>
-	<script src="js/html5-respond.js"></script>
-	<![endif]-->
+  <!-- IF RESPONSIVE -->
+  <link rel="stylesheet" href="css/layouts/responsive-sidebars.css" media="all">
+
+  <!--[if lt IE 9]>
+  <script src="js/html5-respond.js"></script>
+  <![endif]-->
+
+  <!-- IF NOT RESPONSIVE -->
+	<!--
+  <link rel="stylesheet" href="css/layouts/fixed-width.css" media="all">
+  <!--[if lt IE 9]>
+  <!-- 
+  <script src="js/html5.js"></script>
+	-->
+  <![endif]-->
+
+  <link rel="stylesheet" href="css/style.css" media="all">
+
 </head>
 <body class="two-sidebars">
+<!-- 
+Change body class if sidebars are present
+<body class="one-sidebar sidebar-first">
+<body class="one-sidebar sidebar-second">
+<body class="two-sidebars">
+-->
 
 <div id="page">
 
@@ -34,15 +54,13 @@
 		<p>Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.</p>
 	</header>
 
-	<div id="navigation">
-		<nav id="main-menu" role="navigation">
-			<ul>
-				<li class="first"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li class="last"><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</div><!-- /#navigation -->
+	<nav id="main-menu" role="navigation">
+		<ul>
+			<li class="first"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li class="last"><a href="#">Contact</a></li>
+		</ul>
+	</nav><!-- /nav -->
 
 	<div id="main">
 

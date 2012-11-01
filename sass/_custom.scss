@@ -16,19 +16,14 @@
     @media all and (max-width: 480px)  { @content; }
   }
 
-  // 620 +
-  @if $point == break-any {
-    @media all and (min-width: 480px)  { @content; }
+  // 480 - 768
+  @if $point == break-medium {
+    @media all and (min-width: 480px) and (max-width: 768px)  { @content; }
   }
 
   // 768 +
-  @if $point == break-narrow {
-    @media all and (min-width: 768px) { @content; }
-  }
-
-  // 880 +
-  @if $point == break-wide {
-    @media all and (min-width: 880px)  { @content; }
+  @if $point == break-large {
+    @media all and (min-width: 768px)  { @content; }
   }
 
 }

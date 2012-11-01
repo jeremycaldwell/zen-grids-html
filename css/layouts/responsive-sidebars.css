@@ -16,6 +16,7 @@
  * from a user. The effect of this class can be toggled with the jQuery show()
  * and hide() functions.
  */
+/* line 91, ../../sass/_custom.scss */
 .element-hidden {
   display: none;
 }
@@ -28,6 +29,7 @@
  * manner should be kept concise, to avoid unnecessary burden on the user.
  * "!important" is used to prevent unintentional overrides.
  */
+/* line 103, ../../sass/_custom.scss */
 .element-invisible {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -39,6 +41,7 @@
  * The .element-focusable class extends the .element-invisible class to allow
  * the element to be focusable when navigated to via the keyboard.
  */
+/* line 114, ../../sass/_custom.scss */
 .element-invisible.element-focusable:active,
 .element-invisible.element-focusable:focus {
   position: static !important;
@@ -48,6 +51,7 @@
 /*
  * Center the page.
  */
+/* line 43, ../../sass/layouts/responsive-sidebars.scss */
 #page {
   /* For screen sizes larger than 1200px, prevent excessively long lines of text
        by setting a max-width. */
@@ -59,6 +63,7 @@
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
+/* line 61, ../../sass/layouts/responsive-sidebars.scss */
 #header,
 #content,
 #navigation,
@@ -77,6 +82,7 @@
 /*
  * Containers for grid items and flow items.
  */
+/* line 52, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #header .inner:before, #header .inner:after,
 #main:before,
 #main:after,
@@ -85,6 +91,7 @@
   content: "";
   display: table;
 }
+/* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #header .inner:after,
 #main:after,
 #footer:after {
@@ -92,127 +99,129 @@
 }
 
 /*
- *  max-width: 480px
+ * Media queries and breakpoints
  */
-/*
- *  min-width: 480px
- */
-/*
- *  min-width: 480px
- *  AND
- *  max-width: 959px
- */
-@media all and (min-width: 768px) {
+@media all and (min-width: 480px) and (max-width: 768px) {
   /*
-   * Use 3 grid columns for smaller screens.
-   */
-  /*
-   * The layout when there is only one sidebar, the left one.
-   */
-  .sidebar-first #content {
-    /* Span 2 columns, starting in 2nd column from left. */
-    float: left;
-    width: 62.5%;
-    margin-left: 25%;
-    margin-right: -87.5%;
-  }
-  .sidebar-first .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 25%;
-    margin-left: 0%;
-    margin-right: -25%;
-  }
-
-  /*
-   * The layout when there is only one sidebar, the right one.
-   */
-  .sidebar-second #content {
-    /* Span 2 columns, starting in 1st column from left. */
-    float: left;
-    width: 25%;
-    margin-left: 0%;
-    margin-right: -25%;
-  }
-  .sidebar-second .region-sidebar-second {
-    /* Span 1 column, starting in 3rd column from left. */
-    float: left;
-    width: 12.5%;
-    margin-left: 25%;
-    margin-right: -37.5%;
-  }
-
-  /*
-   * The layout when there are two sidebars.
-   */
-  .two-sidebars #content {
-    /* Span 2 columns, starting in 2nd column from left. */
-    float: left;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: -75%;
-  }
-  .two-sidebars .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
-    float: left;
-    width: 25%;
-    margin-left: 0%;
-    margin-right: -25%;
-  }
-  .two-sidebars .region-sidebar-second {
-    /* Start a new row and span all 3 columns. */
-    float: left;
-    width: 25%;
-    margin-left: 75%;
-    margin-right: -100%;
-  }
-}
-/*
- *  min-width: 959px
- */
-@media all and (min-width: 880px) {
-  /*
-   * Use 5 grid columns for larger screens.
+   * Use 8 grid columns for larger screens.
    */
  /*
 * The layout when there is only one sidebar, the left one.
 */
+  /* line 97, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
-    /* Span 4 columns, starting in 2nd column from left. */
+    /* Span 4 columns, starting in 4th column from left. */
     float: left;
-    width: 33.33333%;
-    margin-left: 8.33333%;
-    margin-right: -41.66667%;
+    width: 62.5%;
+    margin-left: 37.5%;
+    margin-right: -100%;
   }
+  /* line 101, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
-    /* Span 1 column, starting in 1st column from left. */
+    /* Span 3 column, starting in 1st column from left. */
     float: left;
-    width: 8.33333%;
+    width: 37.5%;
     margin-left: 0%;
-    margin-right: -8.33333%;
+    margin-right: -37.5%;
   }
 
   /*
   * The layout when there is only one sidebar, the right one.
   */
+  /* line 110, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
-    /* Span 4 columns, starting in 1st column from left. */
+    /* Span 5 columns, starting in 1st column from left. */
     float: left;
-    width: 33.33333%;
+    width: 62.5%;
     margin-left: 0%;
-    margin-right: -33.33333%;
+    margin-right: -62.5%;
   }
+  /* line 114, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
-    /* Span 1 column, starting in 5th column from left. */
+    /* Span 3 column, starting in 6th column from left. */
     float: left;
-    width: 8.33333%;
-    margin-left: 33.33333%;
-    margin-right: -41.66667%;
+    width: 37.5%;
+    margin-left: 62.5%;
+    margin-right: -100%;
   }
 
   /*
   * The layout when there are two sidebars.
   */
+  /* line 123, ../../sass/layouts/responsive-sidebars.scss */
+  .two-sidebars #content {
+    /* Span 5 columns, starting in 4th column from left. */
+    float: left;
+    width: 62.5%;
+    margin-left: 37.5%;
+    margin-right: -100%;
+  }
+  /* line 127, ../../sass/layouts/responsive-sidebars.scss */
+  .two-sidebars .region-sidebar-first {
+    /* Span 3 column, starting in 1st column from left. */
+    float: left;
+    width: 37.5%;
+    margin-left: 0%;
+    margin-right: -37.5%;
+  }
+  /* line 131, ../../sass/layouts/responsive-sidebars.scss */
+  .two-sidebars .region-sidebar-second {
+    /* Span 8 column, starting in 1st column from left under the others. */
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    clear: left;
+  }
+}
+@media all and (min-width: 768px) {
+  /*
+   * Use 12 grid columns for larger screens.
+   */
+ /*
+* The layout when there is only one sidebar, the left one.
+*/
+  /* line 151, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-first #content {
+    /* Span 9 columns, starting in 4th column from left. */
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+    margin-right: -100%;
+  }
+  /* line 155, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-first .region-sidebar-first {
+    /* Span 3 column, starting in 1st column from left. */
+    float: left;
+    width: 25%;
+    margin-left: 0%;
+    margin-right: -25%;
+  }
+
+  /*
+  * The layout when there is only one sidebar, the right one.
+  */
+  /* line 164, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-second #content {
+    /* Span 9 columns, starting in 1st column from left. */
+    float: left;
+    width: 75%;
+    margin-left: 0%;
+    margin-right: -75%;
+  }
+  /* line 168, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-second .region-sidebar-second {
+    /* Span 1 column, starting in 10th column from left. */
+    float: left;
+    width: 25%;
+    margin-left: 75%;
+    margin-right: -100%;
+  }
+
+  /*
+  * The layout when there are two sidebars.
+  */
+  /* line 177, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 6 columns, starting in 4th column from left. */
     float: left;
@@ -220,6 +229,7 @@
     margin-left: 25%;
     margin-right: -75%;
   }
+  /* line 181, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 3 column, starting in 1st column from left. */
     float: left;
@@ -227,6 +237,7 @@
     margin-left: 0%;
     margin-right: -25%;
   }
+  /* line 185, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 3 column, starting in 10th column from left. */
     float: left;
