@@ -1,3 +1,5 @@
+/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* normalize.scss v2.0.1 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
 /**
  * Hide elements from all users.
  *
@@ -35,7 +37,6 @@
   clip: auto;
 }
 
-/* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -88,14 +89,20 @@ audio:not([controls]) {
  * 1. Sets default font family to sans-serif.
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
  */
 html {
   font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
   /* 1 */
+  font-size: 100%;
+  /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 2 */
+  /* Establishes a vertical rhythm unit using $base-line-height. */
+  line-height: 1.5em;
 }
 
 /*
@@ -127,11 +134,64 @@ a:hover {
    Typography
    ========================================================================== */
 /*
+ * Sets 1 unit of vertical rhythm on the top and bottom margin.
+ */
+p,
+pre {
+  margin: 1.5em 0;
+}
+
+blockquote {
+  /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
+  margin: 1.5em 30px;
+}
+
+/*
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
 h1 {
+  /* Sets the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
+  line-height: 1.5em;
+  /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 1.28205em;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 1.80723em;
+}
+
+h6 {
+  font-size: 0.75em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /*
@@ -173,6 +233,7 @@ pre,
 samp {
   font-family: monospace, serif;
   font-size: 1em;
+  line-height: 1.5em;
 }
 
 /*
@@ -218,6 +279,28 @@ sub {
 }
 
 /* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Set 1 unit of vertical rhythm and a consistent indentation.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1.5em 0;
+  padding: 0 0 0 30px;
+}
+
+dl {
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 0 30px;
+}
+
+/* ==========================================================================
    Embedded content
    ========================================================================== */
 /*
@@ -251,14 +334,27 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border-color: #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  /* Apply borders and padding that keep the vertical rhythm. */
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 0.4625em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.9125em;
+  border-left-style: solid;
+  border-left-width: 0.0625em;
+  padding-left: 0.875em;
+  border-right-style: solid;
+  border-right-width: 0.0625em;
+  padding-right: 0.875em;
 }
 
 /*
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
  */
 legend {
   border: 0;
@@ -271,6 +367,7 @@ legend {
  * 1. Corrects font family not being inherited in all browsers.
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ * 4. Improves appearance and consistency with IE 6/7.
  */
 button,
 input,
@@ -299,6 +396,8 @@ input {
  * 2. Corrects inability to style clickable `input` types in iOS.
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
  */
 button,
 html input[type="button"],
@@ -321,9 +420,13 @@ input[disabled] {
 /*
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
  */
 input[type="checkbox"],
 input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -338,10 +441,10 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
-  /* 2 */
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
+  /* 2 */
 }
 
 /*

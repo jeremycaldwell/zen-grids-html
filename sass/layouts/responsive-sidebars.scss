@@ -45,7 +45,7 @@ $zen-auto-include-item-base: false;
      by setting a max-width. */
   margin-left: auto;
   margin-right: auto;
-
+  max-width: 1200px;
 }
 
 /*
@@ -79,18 +79,9 @@ $zen-auto-include-item-base: false;
 
 
 /*
- *  max-width: 480px
- *  AND
- *  landscape
- */
-@include breakpoint(break-small-landscape) {
-}
-
-
-/*
  *  min-width: 480px
  */
-@include breakpoint(break-small-min) {
+@include breakpoint(break-any) {
 }
 
 
@@ -99,7 +90,7 @@ $zen-auto-include-item-base: false;
  *  AND
  *  max-width: 959px
  */
-@include breakpoint(break-medium) {
+@include breakpoint(break-narrow) {
 
   /*
    * Use 3 grid columns for smaller screens.
@@ -154,7 +145,7 @@ $zen-auto-include-item-base: false;
 /*
  *  min-width: 959px
  */
-@include breakpoint(break-large) {
+@include breakpoint(break-wide) {
 
   /*
    * Use 5 grid columns for larger screens.
@@ -203,13 +194,4 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(3, 10);
     }
   }
-}
-
-
-/*
- *  max-device-width: 1080px
- *  AND
- *  landscape
- */
-@include breakpoint(ipad-landscape) {
 }

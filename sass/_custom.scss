@@ -10,24 +10,27 @@
 
 // Breakpoints
 @mixin breakpoint($point) {
+
+  // 480 -
   @if $point == break-small {
     @media all and (max-width: 480px)  { @content; }
   }
-  @if $point == break-small-landscape {
-    @media all and (max-width: 480px) and (orientation:landscape)  { @content; }
-  }
-  @if $point == break-small-min {
+
+  // 620 +
+  @if $point == break-any {
     @media all and (min-width: 480px)  { @content; }
   }
-  @else if $point == break-medium {
-    @media all and (min-width: 480px) and (max-width: 959px) { @content; }
+
+  // 768 +
+  @if $point == break-narrow {
+    @media all and (min-width: 768px) { @content; }
   }
-  @else if $point == break-large {
-    @media all and (min-width: 960px) { @content; }
+
+  // 880 +
+  @if $point == break-wide {
+    @media all and (min-width: 880px)  { @content; }
   }
-  @else if $point == ipad-landscape {
-    @media only screen and (max-device-width: 1024px) and (orientation:landscape)  { @content; }
-  }
+
 }
 
 

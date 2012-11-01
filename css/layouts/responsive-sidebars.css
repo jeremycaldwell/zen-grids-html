@@ -53,6 +53,7 @@
        by setting a max-width. */
   margin-left: auto;
   margin-right: auto;
+  max-width: 1200px;
 }
 
 /*
@@ -94,11 +95,6 @@
  *  max-width: 480px
  */
 /*
- *  max-width: 480px
- *  AND
- *  landscape
- */
-/*
  *  min-width: 480px
  */
 /*
@@ -106,7 +102,7 @@
  *  AND
  *  max-width: 959px
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 768px) {
   /*
    * Use 3 grid columns for smaller screens.
    */
@@ -174,7 +170,7 @@
 /*
  *  min-width: 959px
  */
-@media all and (min-width: 960px) {
+@media all and (min-width: 880px) {
   /*
    * Use 5 grid columns for larger screens.
    */
@@ -239,8 +235,3 @@
     margin-right: -100%;
   }
 }
-/*
- *  max-device-width: 1080px
- *  AND
- *  landscape
- */
