@@ -14,7 +14,7 @@
 
 // We are going to create a 980px wide, 5 column grid with 20px gutters between
 // columns (applied as 10px of left/right padding on each column).
-$zen-column-count: 12;
+$zen-column-count: 4;
 $zen-gutter-width: 10px;
 
 
@@ -34,6 +34,13 @@ $zen-gutter-width: 10px;
 // zen-grid-item-base mixin to all grid items from within a single ruleset.
 $zen-auto-include-item-base: false;
 // $zen-auto-include-flow-item-base: true;
+
+
+// Grid overlay
+#grid-overlay {
+  @include -experimental-bg-grid();
+  max-width: 1200px;
+}
 
 
 /*
@@ -90,6 +97,11 @@ $zen-auto-include-item-base: false;
    */
   $zen-column-count: 8;
 
+  // Grid overlay
+  #grid-overlay {
+    @include -experimental-bg-grid();
+  }
+
   /*
  * The layout when there is only one sidebar, the left one.
  */
@@ -133,6 +145,7 @@ $zen-auto-include-item-base: false;
       @include zen-clear(left); // Clear left-floated elements
     }
   }
+
 }
 
 
@@ -143,6 +156,11 @@ $zen-auto-include-item-base: false;
    * Use 12 grid columns for larger screens.
    */
   $zen-column-count: 12;
+
+  // Grid overlay
+  #grid-overlay {
+    @include -experimental-bg-grid();
+  }
 
     /*
    * The layout when there is only one sidebar, the left one.

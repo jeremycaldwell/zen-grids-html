@@ -9,6 +9,25 @@
 
 @import "base";
 
+
+// Grid overlay
+a#grid-toggle {
+	background-color: rgba(58, 58, 58, 0.8);
+	bottom: 0;
+	color: #00CC00;
+	font-family: monospace;
+	left: 0;
+	padding: .4em 1em;
+	position: fixed;
+	text-decoration: none;
+	z-index: 9999;
+}
+
+#grid-overlay {
+	margin-top: -20px;
+}
+
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.

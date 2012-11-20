@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="cleartype" content="on">
 
-  <title>Zen Grids HMTL: Sample Usage</title>
+  <title>Zen Grids HMTL: Sample Usage with Grid toggle</title>
 
   <link rel="stylesheet" href="css/normalize.css" media="all">
 
@@ -38,13 +38,21 @@
 </head>
 <body class="two-sidebars">
 <!-- 
-Change body class if sidebars are present
+Available body classes. Be sure to remove the sidebar region below that may no longer be needed.
+<body>
 <body class="one-sidebar sidebar-first">
 <body class="one-sidebar sidebar-second">
 <body class="two-sidebars">
 -->
 
 <div id="page">
+
+	<!-- GRID OVERLAY START -->
+	<a href="#" id="grid-toggle" onclick="toggle_visibility('grid-overlay');">Grid toggle</a>
+	<div id="grid-overlay" style="display: block;">
+		<span class="bgcol-1">1</span><span class="bgcol-2">2</span><span class="bgcol-3">3</span><span class="bgcol-4">4</span><span class="bgcol-5">5</span><span class="bgcol-6">6</span><span class="bgcol-7">7</span><span class="bgcol-8">8</span><span class="bgcol-9">9</span><span class="bgcol-10">10</span><span class="bgcol-11">11</span><span class="bgcol-12">12</span><span class="bgcol-13">13</span><span class="bgcol-14">14</span><span class="bgcol-15">15</span><span class="bgcol-16">16</span><span class="bgcol-17">17</span><span class="bgcol-18">18</span><span class="bgcol-19">19</span><span class="bgcol-20">20</span><span class="bgcol-21">21</span><span class="bgcol-22">22</span><span class="bgcol-23">23</span><span class="bgcol-24">24</span>
+	</div><!-- /#grid overlay -->
+	<!-- GRID OVERLAY END -->
 
 	<p id="skip-link">
 		<a href="#content" class="element-invisible element-focusable">Skip to content</a>
@@ -92,6 +100,11 @@ Change body class if sidebars are present
 	</footer><!-- /footer -->
 
 </div><!-- /#page -->
+
+<!-- OPTIONAL JAVASCRIPT (Grid overlay and fitWeird) START -->
+<script src="js/grid-overlay.js"></script>
+<script src="js/fitWeird.js" type="text/javascript"></script>
+<!-- OPTIONAL JAVASCRIPT (Grid overlay and fitWeird) END -->
 
 </body>
 </html>

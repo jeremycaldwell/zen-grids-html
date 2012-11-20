@@ -46,15 +46,33 @@
   clip: auto;
 }
 
+/* line 14, ../sass/style.scss */
+a#grid-toggle {
+  background-color: rgba(58, 58, 58, 0.8);
+  bottom: 0;
+  color: #00CC00;
+  font-family: monospace;
+  left: 0;
+  padding: .4em 1em;
+  position: fixed;
+  text-decoration: none;
+  z-index: 9999;
+}
+
+/* line 26, ../sass/style.scss */
+#grid-overlay {
+  margin-top: -20px;
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-/* line 16, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 #skip-link {
   margin: 0;
 }
-/* line 20, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 #skip-link a,
 #skip-link a:visited {
   background-color: #666;
