@@ -1,12 +1,4 @@
 /**
- * @file
- * Page Styling
- *
- * Style the markup found in page.tpl.php. Also includes some styling of
- * miscellaneous Drupal elements that appear in the $content variable, such as
- * ul.links, .pager, .more-link, etc.
- */
-/**
  * Hide elements from all users.
  *
  * Used for elements which should not be immediately displayed to any user. An
@@ -46,10 +38,28 @@
   clip: auto;
 }
 
-/* line 14, ../sass/style.scss */
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+/* line 8, ../sass/style.scss */
+#skip-link {
+  margin: 0;
+}
+/* line 12, ../sass/style.scss */
+#skip-link a,
+#skip-link a:visited {
+  background-color: #666;
+  color: #fff;
+  display: block;
+  padding: 2px 0 3px 0;
+  text-align: center;
+}
+
+/* line 23, ../sass/style.scss */
 a#grid-toggle {
   background-color: rgba(58, 58, 58, 0.8);
-  bottom: 0;
+  top: 0;
   color: #00CC00;
   font-family: monospace;
   left: 0;
@@ -58,26 +68,57 @@ a#grid-toggle {
   text-decoration: none;
   z-index: 9999;
 }
+@media all and (max-width: 480px) {
+  /* line 23, ../sass/style.scss */
+  a#grid-toggle {
+    width: 100%;
+  }
+}
 
-/* line 26, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 #grid-overlay {
   margin-top: -20px;
 }
 
-/*
- * The skip-link link will be completely hidden until a user tabs to the link.
- * See the element-focusable rule in system.base.css.
- */
-/* line 35, ../sass/style.scss */
-#skip-link {
-  margin: 0;
+/* line 45, ../sass/style.scss */
+#toggle-layout {
+  background-color: rgba(58, 58, 58, 0.8);
+  bottom: 35px;
+  color: #00CC00;
+  font-family: monospace;
+  padding: .4em 1em;
+  position: fixed;
+  right: 0;
+  text-decoration: none;
+  z-index: 10000;
 }
-/* line 39, ../sass/style.scss */
-#skip-link a,
-#skip-link a:visited {
-  background-color: #666;
+/* line 56, ../sass/style.scss */
+#toggle-layout a {
   color: #fff;
-  display: block;
-  padding: 2px 0 3px 0;
-  text-align: center;
+  padding: 5px;
+}
+/* line 61, ../sass/style.scss */
+#toggle-layout a:hover, #toggle-layout a:focus {
+  background: #00CC00;
+}
+
+/* line 70, ../sass/style.scss */
+nav#main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 74, ../sass/style.scss */
+nav#main-menu ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 84, ../sass/style.scss */
+#main {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/* line 87, ../sass/style.scss */
+#main .block {
+  background-color: rgba(0, 0, 0, 0.2);
 }

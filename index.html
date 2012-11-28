@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="cleartype" content="on">
 
-  <title>Zen Grids HMTL: Sample Usage with Grid toggle</title>
+  <title>Zen Grids HMTL: Sample Usage with Grid/Layout Toggle</title>
 
   <link rel="stylesheet" href="css/normalize.css" media="all">
 
@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="css/style.css" media="all">
 
 </head>
-<body class="two-sidebars">
+<body>
 <!-- 
 Available body classes. Be sure to remove the sidebar region below that may no longer be needed.
 <body>
@@ -48,7 +48,7 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 <div id="page">
 
 	<!-- GRID OVERLAY START -->
-	<a href="#" id="grid-toggle" onclick="toggle_visibility('grid-overlay');">Grid toggle</a>
+	<a href="#" id="grid-toggle" onclick="toggle_visibility('grid-overlay');"><strong>Toggle grid</strong></a>
 	<div id="grid-overlay" style="display: block;">
 		<span class="bgcol-1">1</span><span class="bgcol-2">2</span><span class="bgcol-3">3</span><span class="bgcol-4">4</span><span class="bgcol-5">5</span><span class="bgcol-6">6</span><span class="bgcol-7">7</span><span class="bgcol-8">8</span><span class="bgcol-9">9</span><span class="bgcol-10">10</span><span class="bgcol-11">11</span><span class="bgcol-12">12</span><span class="bgcol-13">13</span><span class="bgcol-14">14</span><span class="bgcol-15">15</span><span class="bgcol-16">16</span><span class="bgcol-17">17</span><span class="bgcol-18">18</span><span class="bgcol-19">19</span><span class="bgcol-20">20</span><span class="bgcol-21">21</span><span class="bgcol-22">22</span><span class="bgcol-23">23</span><span class="bgcol-24">24</span>
 	</div><!-- /#grid overlay -->
@@ -58,11 +58,19 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 		<a href="#content" class="element-invisible element-focusable">Skip to content</a>
 	</p>
 
-	<header id="header" role="banner">
+	<header id="toggle-layout">
+		<strong>Sidebars:</strong> 
+    <a href="#both" class="toggle">Both</a>
+		<a href="#first" class="toggle">First</a>
+    <a href="#last" class="toggle">Last</a>
+    <a href="#none" class="toggle">None</a>
+  </header>
+
+	<header id="header" class="block" role="banner">
 		<p>Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue.</p>
 	</header>
 
-	<nav id="main-menu" role="navigation">
+	<nav id="main-menu" class="block" role="navigation">
 		<ul>
 			<li class="first"><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
@@ -72,7 +80,7 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 
 	<div id="main">
 
-		<div id="content" class="column" role="main">
+		<div id="content" class="column block" role="main">
 			<a id="main-content"></a>
 			<h1 class="title" id="page-title">Title goes here</h1>
 			<artcle class="node">
@@ -83,11 +91,11 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 
 		<aside class="sidebars">
 
-			<section class="region-sidebar-first column sidebar">
+			<section class="region-sidebar-first column sidebar block">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.</p>
 			</section><!-- /sidebar-first -->
 
-			<section class="region-sidebar-second column sidebar">
+			<section class="region-sidebar-second column sidebar block">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.</p>
 			</section><!-- /sidebar-second -->
 
@@ -95,16 +103,18 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 
 	</div><!-- /#main -->
 
-	<footer id="footer">
+	<footer id="footer" class="block">
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.</p>
 	</footer><!-- /footer -->
 
 </div><!-- /#page -->
 
-<!-- OPTIONAL JAVASCRIPT (Grid overlay and fitWeird) START -->
+<!-- OPTIONAL JAVASCRIPT (Sidebars toggle, Grid overlay, and fitWeird) START -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/grid-overlay.js"></script>
-<script src="js/fitWeird.js" type="text/javascript"></script>
-<!-- OPTIONAL JAVASCRIPT (Grid overlay and fitWeird) END -->
+<script src="js/fitWeird.js"></script>
+<script src="js/layoutToggle.js"></script>
+<!-- OPTIONAL JAVASCRIPT (Sidebars toggle, Grid overlay, and fitWeird) END -->
 
 </body>
 </html>

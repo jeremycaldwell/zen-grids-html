@@ -64,19 +64,19 @@
   background-color: white;
   max-width: 1200px;
 }
-/* line 52, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+/* line 52, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #grid-overlay:before, #grid-overlay:after {
   content: "";
   display: table;
 }
-/* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+/* line 56, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #grid-overlay:after {
   clear: both;
 }
-/* line 47, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 47, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay span {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 7px;
+  padding-right: 8px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -87,7 +87,7 @@
   color: white;
   text-shadow: #5f0000 0 0 4px;
 }
-/* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-1 {
   float: left;
   width: 25%;
@@ -97,10 +97,10 @@
   height: 100%;
   margin-bottom: -24px;
   background-color: #ffdede;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
 }
-/* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcolrev-1 {
   clear: left;
   float: right;
@@ -109,7 +109,7 @@
   margin-left: -25%;
   display: block;
 }
-/* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-2 {
   float: left;
   width: 25%;
@@ -119,10 +119,10 @@
   height: 100%;
   margin-bottom: -24px;
   background-color: #ffdede;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
 }
-/* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcolrev-2 {
   float: right;
   width: 25%;
@@ -130,7 +130,7 @@
   margin-left: -50%;
   display: block;
 }
-/* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-3 {
   float: left;
   width: 25%;
@@ -140,10 +140,10 @@
   height: 100%;
   margin-bottom: -24px;
   background-color: #ffdede;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
 }
-/* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcolrev-3 {
   float: right;
   width: 25%;
@@ -151,7 +151,7 @@
   margin-left: -75%;
   display: block;
 }
-/* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-4 {
   float: left;
   width: 25%;
@@ -161,10 +161,10 @@
   height: 100%;
   margin-bottom: -24px;
   background-color: #ffdede;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  border-left: 7px solid white;
+  border-right: 7px solid white;
 }
-/* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcolrev-4 {
   float: right;
   width: 25%;
@@ -172,132 +172,132 @@
   margin-left: -100%;
   display: block;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-5,
 #grid-overlay .bgcolrev-5 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-6,
 #grid-overlay .bgcolrev-6 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-7,
 #grid-overlay .bgcolrev-7 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-8,
 #grid-overlay .bgcolrev-8 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-9,
 #grid-overlay .bgcolrev-9 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-10,
 #grid-overlay .bgcolrev-10 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-11,
 #grid-overlay .bgcolrev-11 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-12,
 #grid-overlay .bgcolrev-12 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-13,
 #grid-overlay .bgcolrev-13 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-14,
 #grid-overlay .bgcolrev-14 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-15,
 #grid-overlay .bgcolrev-15 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-16,
 #grid-overlay .bgcolrev-16 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-17,
 #grid-overlay .bgcolrev-17 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-18,
 #grid-overlay .bgcolrev-18 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-19,
 #grid-overlay .bgcolrev-19 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-20,
 #grid-overlay .bgcolrev-20 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-21,
 #grid-overlay .bgcolrev-21 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-22,
 #grid-overlay .bgcolrev-22 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-23,
 #grid-overlay .bgcolrev-23 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-24,
 #grid-overlay .bgcolrev-24 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-25,
 #grid-overlay .bgcolrev-25 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-26,
 #grid-overlay .bgcolrev-26 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-27,
 #grid-overlay .bgcolrev-27 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-28,
 #grid-overlay .bgcolrev-28 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-29,
 #grid-overlay .bgcolrev-29 {
   display: none;
 }
-/* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
 #grid-overlay .bgcol-30,
 #grid-overlay .bgcolrev-30 {
   display: none;
@@ -321,12 +321,12 @@
 /* line 68, ../../sass/layouts/responsive-sidebars.scss */
 #header,
 #content,
-#navigation,
+#main-menu,
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 7px;
+  padding-right: 8px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -337,7 +337,7 @@
 /*
  * Containers for grid items and flow items.
  */
-/* line 52, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+/* line 52, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #header .inner:before, #header .inner:after,
 #main:before,
 #main:after,
@@ -346,7 +346,7 @@
   content: "";
   display: table;
 }
-/* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+/* line 56, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
 #header .inner:after,
 #main:after,
 #footer:after {
@@ -375,19 +375,19 @@
     font-family: sans-serif;
     background-color: white;
   }
-  /* line 52, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+  /* line 52, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
   #grid-overlay:before, #grid-overlay:after {
     content: "";
     display: table;
   }
-  /* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+  /* line 56, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
   #grid-overlay:after {
     clear: both;
   }
-  /* line 47, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 47, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay span {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 8px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -398,7 +398,7 @@
     color: white;
     text-shadow: #5f0000 0 0 4px;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-1 {
     float: left;
     width: 12.5%;
@@ -408,10 +408,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-1 {
     clear: left;
     float: right;
@@ -420,7 +420,7 @@
     margin-left: -12.5%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-2 {
     float: left;
     width: 12.5%;
@@ -430,10 +430,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-2 {
     float: right;
     width: 12.5%;
@@ -441,7 +441,7 @@
     margin-left: -25%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-3 {
     float: left;
     width: 12.5%;
@@ -451,10 +451,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-3 {
     float: right;
     width: 12.5%;
@@ -462,7 +462,7 @@
     margin-left: -37.5%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-4 {
     float: left;
     width: 12.5%;
@@ -472,10 +472,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-4 {
     float: right;
     width: 12.5%;
@@ -483,7 +483,7 @@
     margin-left: -50%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-5 {
     float: left;
     width: 12.5%;
@@ -493,10 +493,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-5 {
     float: right;
     width: 12.5%;
@@ -504,7 +504,7 @@
     margin-left: -62.5%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-6 {
     float: left;
     width: 12.5%;
@@ -514,10 +514,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-6 {
     float: right;
     width: 12.5%;
@@ -525,7 +525,7 @@
     margin-left: -75%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-7 {
     float: left;
     width: 12.5%;
@@ -535,10 +535,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-7 {
     float: right;
     width: 12.5%;
@@ -546,7 +546,7 @@
     margin-left: -87.5%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-8 {
     float: left;
     width: 12.5%;
@@ -556,10 +556,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-8 {
     float: right;
     width: 12.5%;
@@ -567,112 +567,112 @@
     margin-left: -100%;
     display: block;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-9,
   #grid-overlay .bgcolrev-9 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-10,
   #grid-overlay .bgcolrev-10 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-11,
   #grid-overlay .bgcolrev-11 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-12,
   #grid-overlay .bgcolrev-12 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-13,
   #grid-overlay .bgcolrev-13 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-14,
   #grid-overlay .bgcolrev-14 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-15,
   #grid-overlay .bgcolrev-15 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-16,
   #grid-overlay .bgcolrev-16 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-17,
   #grid-overlay .bgcolrev-17 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-18,
   #grid-overlay .bgcolrev-18 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-19,
   #grid-overlay .bgcolrev-19 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-20,
   #grid-overlay .bgcolrev-20 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-21,
   #grid-overlay .bgcolrev-21 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-22,
   #grid-overlay .bgcolrev-22 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-23,
   #grid-overlay .bgcolrev-23 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-24,
   #grid-overlay .bgcolrev-24 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-25,
   #grid-overlay .bgcolrev-25 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-26,
   #grid-overlay .bgcolrev-26 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-27,
   #grid-overlay .bgcolrev-27 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-28,
   #grid-overlay .bgcolrev-28 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-29,
   #grid-overlay .bgcolrev-29 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-30,
   #grid-overlay .bgcolrev-30 {
     display: none;
@@ -697,11 +697,16 @@
     margin-left: 0%;
     margin-right: -37.5%;
   }
+  /* line 117, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-first .region-sidebar-second {
+    /* Span 3 column, starting in 1st column from left. */
+    display: none;
+  }
 
   /*
   * The layout when there is only one sidebar, the right one.
   */
-  /* line 122, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 126, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 5 columns, starting in 1st column from left. */
     float: left;
@@ -709,7 +714,7 @@
     margin-left: 0%;
     margin-right: -62.5%;
   }
-  /* line 126, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 130, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 3 column, starting in 6th column from left. */
     float: left;
@@ -717,11 +722,16 @@
     margin-left: 62.5%;
     margin-right: -100%;
   }
+  /* line 134, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-second .region-sidebar-first {
+    /* Span 8 column, starting in 1st column from left under the others. */
+    display: none;
+  }
 
   /*
   * The layout when there are two sidebars.
   */
-  /* line 135, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 143, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 5 columns, starting in 4th column from left. */
     float: left;
@@ -729,7 +739,7 @@
     margin-left: 37.5%;
     margin-right: -100%;
   }
-  /* line 139, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 147, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 3 column, starting in 1st column from left. */
     float: left;
@@ -737,7 +747,7 @@
     margin-left: 0%;
     margin-right: -37.5%;
   }
-  /* line 143, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 151, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 8 column, starting in 1st column from left under the others. */
     float: left;
@@ -751,7 +761,7 @@
   /*
    * Use 12 grid columns for larger screens.
    */
-  /* line 161, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 169, ../../sass/layouts/responsive-sidebars.scss */
   #grid-overlay {
     position: absolute;
     position: fixed;
@@ -766,19 +776,19 @@
     font-family: sans-serif;
     background-color: white;
   }
-  /* line 52, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+  /* line 52, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
   #grid-overlay:before, #grid-overlay:after {
     content: "";
     display: table;
   }
-  /* line 56, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+  /* line 56, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
   #grid-overlay:after {
     clear: both;
   }
-  /* line 47, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 47, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay span {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 8px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -789,7 +799,7 @@
     color: white;
     text-shadow: #5f0000 0 0 4px;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-1 {
     float: left;
     width: 8.33333%;
@@ -799,10 +809,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-1 {
     clear: left;
     float: right;
@@ -811,7 +821,7 @@
     margin-left: -8.33333%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-2 {
     float: left;
     width: 8.33333%;
@@ -821,10 +831,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-2 {
     float: right;
     width: 8.33333%;
@@ -832,7 +842,7 @@
     margin-left: -16.66667%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-3 {
     float: left;
     width: 8.33333%;
@@ -842,10 +852,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-3 {
     float: right;
     width: 8.33333%;
@@ -853,7 +863,7 @@
     margin-left: -25%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-4 {
     float: left;
     width: 8.33333%;
@@ -863,10 +873,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-4 {
     float: right;
     width: 8.33333%;
@@ -874,7 +884,7 @@
     margin-left: -33.33333%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-5 {
     float: left;
     width: 8.33333%;
@@ -884,10 +894,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-5 {
     float: right;
     width: 8.33333%;
@@ -895,7 +905,7 @@
     margin-left: -41.66667%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-6 {
     float: left;
     width: 8.33333%;
@@ -905,10 +915,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-6 {
     float: right;
     width: 8.33333%;
@@ -916,7 +926,7 @@
     margin-left: -50%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-7 {
     float: left;
     width: 8.33333%;
@@ -926,10 +936,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-7 {
     float: right;
     width: 8.33333%;
@@ -937,7 +947,7 @@
     margin-left: -58.33333%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-8 {
     float: left;
     width: 8.33333%;
@@ -947,10 +957,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-8 {
     float: right;
     width: 8.33333%;
@@ -958,7 +968,7 @@
     margin-left: -66.66667%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-9 {
     float: left;
     width: 8.33333%;
@@ -968,10 +978,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-9 {
     float: right;
     width: 8.33333%;
@@ -979,7 +989,7 @@
     margin-left: -75%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-10 {
     float: left;
     width: 8.33333%;
@@ -989,10 +999,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-10 {
     float: right;
     width: 8.33333%;
@@ -1000,7 +1010,7 @@
     margin-left: -83.33333%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-11 {
     float: left;
     width: 8.33333%;
@@ -1010,10 +1020,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-11 {
     float: right;
     width: 8.33333%;
@@ -1021,7 +1031,7 @@
     margin-left: -91.66667%;
     display: block;
   }
-  /* line 55, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-12 {
     float: left;
     width: 8.33333%;
@@ -1031,10 +1041,10 @@
     height: 100%;
     margin-bottom: -24px;
     background-color: #ffdede;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
   }
-  /* line 66, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 66, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcolrev-12 {
     float: right;
     width: 8.33333%;
@@ -1042,92 +1052,92 @@
     margin-left: -100%;
     display: block;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-13,
   #grid-overlay .bgcolrev-13 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-14,
   #grid-overlay .bgcolrev-14 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-15,
   #grid-overlay .bgcolrev-15 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-16,
   #grid-overlay .bgcolrev-16 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-17,
   #grid-overlay .bgcolrev-17 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-18,
   #grid-overlay .bgcolrev-18 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-19,
   #grid-overlay .bgcolrev-19 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-20,
   #grid-overlay .bgcolrev-20 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-21,
   #grid-overlay .bgcolrev-21 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-22,
   #grid-overlay .bgcolrev-22 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-23,
   #grid-overlay .bgcolrev-23 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-24,
   #grid-overlay .bgcolrev-24 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-25,
   #grid-overlay .bgcolrev-25 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-26,
   #grid-overlay .bgcolrev-26 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-27,
   #grid-overlay .bgcolrev-27 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-28,
   #grid-overlay .bgcolrev-28 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-29,
   #grid-overlay .bgcolrev-29 {
     display: none;
   }
-  /* line 76, ../../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zen-grids-1.2/stylesheets/zen/_background-grid.scss */
   #grid-overlay .bgcol-30,
   #grid-overlay .bgcolrev-30 {
     display: none;
@@ -1136,7 +1146,7 @@
  /*
 * The layout when there is only one sidebar, the left one.
 */
-  /* line 169, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 177, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 9 columns, starting in 4th column from left. */
     float: left;
@@ -1144,7 +1154,7 @@
     margin-left: 25%;
     margin-right: -100%;
   }
-  /* line 173, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 181, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 3 column, starting in 1st column from left. */
     float: left;
@@ -1152,11 +1162,15 @@
     margin-left: 0%;
     margin-right: -25%;
   }
+  /* line 185, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-first .region-sidebar-second {
+    display: none;
+  }
 
   /*
   * The layout when there is only one sidebar, the right one.
   */
-  /* line 182, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 195, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 9 columns, starting in 1st column from left. */
     float: left;
@@ -1164,7 +1178,7 @@
     margin-left: 0%;
     margin-right: -75%;
   }
-  /* line 186, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 199, ../../sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 10th column from left. */
     float: left;
@@ -1172,32 +1186,36 @@
     margin-left: 75%;
     margin-right: -100%;
   }
+  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
+  .sidebar-second .region-sidebar-first {
+    display: none;
+  }
 
   /*
   * The layout when there are two sidebars.
   */
-  /* line 195, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 212, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 6 columns, starting in 4th column from left. */
     float: left;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: -75%;
+    width: 66.66667%;
+    margin-left: 16.66667%;
+    margin-right: -83.33333%;
   }
-  /* line 199, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 216, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 3 column, starting in 1st column from left. */
     float: left;
-    width: 25%;
+    width: 16.66667%;
     margin-left: 0%;
-    margin-right: -25%;
+    margin-right: -16.66667%;
   }
-  /* line 203, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 220, ../../sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 3 column, starting in 10th column from left. */
     float: left;
-    width: 25%;
-    margin-left: 75%;
+    width: 16.66667%;
+    margin-left: 83.33333%;
     margin-right: -100%;
   }
 }

@@ -1,31 +1,4 @@
-/**
- * @file
- * Page Styling
- *
- * Style the markup found in page.tpl.php. Also includes some styling of
- * miscellaneous Drupal elements that appear in the $content variable, such as
- * ul.links, .pager, .more-link, etc.
- */
-
 @import "base";
-
-
-// Grid overlay
-a#grid-toggle {
-	background-color: rgba(58, 58, 58, 0.8);
-	bottom: 0;
-	color: #00CC00;
-	font-family: monospace;
-	left: 0;
-	padding: .4em 1em;
-	position: fixed;
-	text-decoration: none;
-	z-index: 9999;
-}
-
-#grid-overlay {
-	margin-top: -20px;
-}
 
 
 /*
@@ -43,4 +16,75 @@ a#grid-toggle {
     padding: 2px 0 3px 0;
     text-align: center;
   }
+}
+
+
+// Grid overlay
+a#grid-toggle {
+	background-color: rgba(58, 58, 58, 0.8);
+	top: 0;
+	color: #00CC00;
+	font-family: monospace;
+	left: 0;
+	padding: .4em 1em;
+	position: fixed;
+	text-decoration: none;
+	z-index: 9999;
+
+	@include breakpoint(break-small) {
+  	width: 100%;
+  }
+}
+
+#grid-overlay {
+	margin-top: -20px;
+}
+
+
+// Layout toggle
+#toggle-layout {
+	background-color: rgba(58, 58, 58, 0.8);
+	bottom: 35px;
+	color: #00CC00;
+	font-family: monospace;
+	padding: .4em 1em;
+	position: fixed;
+	right: 0;
+	text-decoration: none;
+	z-index: 10000;
+
+	a {
+		color: #fff;
+		padding: 5px;
+
+		&:hover,
+		&:focus {
+			background: #00CC00;
+		}
+	}
+}
+
+
+// Navigation
+nav#main-menu {
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+
+// Main
+#main {
+	background-color: rgba(000, 000, 000, 0.1);
+
+	.block {
+		background-color: rgba(000, 000, 000, 0.2);
+	}
 }

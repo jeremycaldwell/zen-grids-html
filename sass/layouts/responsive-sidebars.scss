@@ -15,7 +15,7 @@
 // We are going to create a 980px wide, 5 column grid with 20px gutters between
 // columns (applied as 10px of left/right padding on each column).
 $zen-column-count: 4;
-$zen-gutter-width: 10px;
+$zen-gutter-width: 15px;
 
 
 // IE6-7 don't support box-sizing: border-box. We can fix this in 1 of 3 ways:
@@ -62,7 +62,7 @@ $zen-auto-include-item-base: false;
 // See the note about $zen-auto-include-item-base above.
 #header,
 #content,
-#navigation,
+#main-menu,
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
@@ -113,6 +113,10 @@ $zen-auto-include-item-base: false;
     .region-sidebar-first { /* Span 3 column, starting in 1st column from left. */
       @include zen-grid-item(3, 1);
     }
+
+    .region-sidebar-second { /* Span 3 column, starting in 1st column from left. */
+      display: none;
+    }
   }
 
   /*
@@ -125,6 +129,10 @@ $zen-auto-include-item-base: false;
 
     .region-sidebar-second { /* Span 3 column, starting in 6th column from left. */
       @include zen-grid-item(3, 6);
+    }
+
+    .region-sidebar-first { /* Span 8 column, starting in 1st column from left under the others. */
+      display: none;
     }
   }
 
@@ -173,6 +181,11 @@ $zen-auto-include-item-base: false;
     .region-sidebar-first { /* Span 3 column, starting in 1st column from left. */
       @include zen-grid-item(3, 1);
     }
+
+    .region-sidebar-second {
+      display: none;
+    }
+
   }
 
    /*
@@ -186,6 +199,10 @@ $zen-auto-include-item-base: false;
     .region-sidebar-second { /* Span 1 column, starting in 10th column from left. */
       @include zen-grid-item(3, 10);
     }
+
+    .region-sidebar-first {
+      display: none;
+    }
   }
 
    /*
@@ -193,15 +210,15 @@ $zen-auto-include-item-base: false;
    */
   .two-sidebars {
     #content { /* Span 6 columns, starting in 4th column from left. */
-      @include zen-grid-item(6, 4);
+      @include zen-grid-item(8, 3);
     }
 
     .region-sidebar-first { /* Span 3 column, starting in 1st column from left. */
-      @include zen-grid-item(3, 1);
+      @include zen-grid-item(2, 1);
     }
 
     .region-sidebar-second { /* Span 3 column, starting in 10th column from left. */
-      @include zen-grid-item(3, 10);
+      @include zen-grid-item(2, 11);
     }
   }
 }
