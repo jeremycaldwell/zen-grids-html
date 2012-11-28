@@ -4,6 +4,6 @@
 # Ignore hidden and project files.
 *.project
 *.idea/*
-/.htaccess
 *.scssc
-/.DS_Store
+.DS_Store
+cache
