@@ -1,3 +1,14 @@
+// Layout active
+$(document).ready(function () {
+  $('#settings a.toggle').click(function() {
+    $(this)
+      .addClass('active')
+      .siblings()
+      .removeClass('active');
+    return false;
+  })
+});
+
 var OBC = (function (OBC, $) {
 
     'use strict';

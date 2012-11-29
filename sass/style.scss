@@ -1,3 +1,4 @@
+@import "normalize";
 @import "base";
 
 
@@ -8,8 +9,7 @@
 #skip-link {
   margin: 0;
 
-  a,
-  a:visited {
+  a {
     background-color: #666;
     color: #fff;
     display: block;
@@ -19,46 +19,25 @@
 }
 
 
-// Grid overlay
-#grid-toggle {
+// Settings
+#settings {
 	background-color: rgba(58, 58, 58, 0.8);
 	bottom: 0;
 	color: #00CC00;
 	font-family: monospace;
 	left: 0;
-	padding: .4em 1em;
+	padding: 2px;
 	position: fixed;
-	z-index: 9999;
-
-	@include breakpoint(break-small) {
-  	width: 100%;
-  }
-
-  a {
-  	color: #fff;
-		padding: 5px;
-	}
-}
-
-
-// Layout toggle
-#toggle-layout {
-	background-color: rgba(58, 58, 58, 0.8);
-	bottom: 35px;
-	color: #00CC00;
-	font-family: monospace;
-	padding: .4em 1em;
-	position: fixed;
-	right: 0;
 	text-decoration: none;
 	z-index: 10000;
 
 	a {
 		color: #fff;
+		margin: 0;
 		padding: 5px;
 
 		&:hover,
-		&:focus {
+		&.active {
 			background: #00CC00;
 		}
 	}
@@ -66,7 +45,7 @@
 
 
 // Navigation
-nav#main-menu {
+#navigation {
 	ul {
 		margin: 0;
 		padding: 0;
@@ -84,5 +63,12 @@ nav#main-menu {
 .block {
 	background-color: rgba(000, 000, 000, 0.1);
 	margin-bottom: 5px;
-	padding: 5px;
+
+	&.region-sidebar-first {
+		background-color: rgba(255, 247, 159, .5);
+	}
+
+	&.region-sidebar-second {
+		background-color: rgba(255, 247, 159, .5);
+	}
 }
