@@ -637,13 +637,12 @@ table {
 /* line 63, ../sass/style.scss */
 .block {
   background-color: rgba(0, 0, 0, 0.1);
-  margin-bottom: 5px;
 }
-/* line 67, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .block.region-sidebar-first {
   background-color: rgba(255, 247, 159, 0.5);
 }
-/* line 71, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .block.region-sidebar-second {
   background-color: rgba(255, 247, 159, 0.5);
 }
