@@ -57,27 +57,26 @@
 }
 
 /* line 23, ../sass/style.scss */
-a#grid-toggle {
+#grid-toggle {
   background-color: rgba(58, 58, 58, 0.8);
-  top: 0;
+  bottom: 0;
   color: #00CC00;
   font-family: monospace;
   left: 0;
   padding: .4em 1em;
   position: fixed;
-  text-decoration: none;
   z-index: 9999;
 }
 @media all and (max-width: 480px) {
   /* line 23, ../sass/style.scss */
-  a#grid-toggle {
+  #grid-toggle {
     width: 100%;
   }
 }
-
-/* line 39, ../sass/style.scss */
-#grid-overlay {
-  margin-top: -20px;
+/* line 37, ../sass/style.scss */
+#grid-toggle a {
+  color: #fff;
+  padding: 5px;
 }
 
 /* line 45, ../sass/style.scss */
@@ -115,10 +114,8 @@ nav#main-menu ul li {
 }
 
 /* line 84, ../sass/style.scss */
-#main {
+.block {
   background-color: rgba(0, 0, 0, 0.1);
-}
-/* line 87, ../sass/style.scss */
-#main .block {
-  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  padding: 5px;
 }

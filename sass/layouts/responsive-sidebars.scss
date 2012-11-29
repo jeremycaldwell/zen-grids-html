@@ -14,8 +14,8 @@
 
 // We are going to create a 980px wide, 5 column grid with 20px gutters between
 // columns (applied as 10px of left/right padding on each column).
-$zen-column-count: 4;
-$zen-gutter-width: 15px;
+$zen-column-count:  5;
+$zen-gutter-width:  20px;
 
 
 // IE6-7 don't support box-sizing: border-box. We can fix this in 1 of 3 ways:
@@ -59,10 +59,9 @@ $zen-auto-include-item-base: false;
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
 
-// See the note about $zen-auto-include-item-base above.
 #header,
 #content,
-#main-menu,
+#navigation,
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
@@ -72,7 +71,8 @@ $zen-auto-include-item-base: false;
 /*
  * Containers for grid items and flow items.
  */
-#header .inner,
+
+#header,
 #main,
 #footer {
   @include zen-grid-container();

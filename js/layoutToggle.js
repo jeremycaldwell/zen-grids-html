@@ -13,16 +13,16 @@ var OBC = (function (OBC, $) {
         toggle: function (el) {
             var dir = $(el).attr('href');
             if (dir === '#first') {
-                $('body').toggleClass('sidebar-first').removeClass('two-sidebars sidebar-second');
+                $('body').removeClass().addClass('sidebar-first');
             }
-            if (dir === '#last') {
-                $('body').toggleClass('sidebar-second').removeClass('two-sidebars sidebar-first');
+            if (dir === '#second') {
+                $('body').removeClass().addClass('sidebar-second');
             }
             if (dir === '#both') {
-                $('body').toggleClass('two-sidebars').removeClass('sidebar-first sidebar-second');
+                $('body').removeClass().addClass('two-sidebars');
             }
             if (dir === '#none') {
-                $('body').toggleClass('none').removeClass('two-sidebars sidebar-first sidebar-second');
+                $('body').removeClass();
             }
             return $('body').attr('class');
         }

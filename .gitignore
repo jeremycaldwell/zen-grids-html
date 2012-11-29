@@ -7,3 +7,4 @@
 *.scssc
 .DS_Store
 cache
+.sass-cache

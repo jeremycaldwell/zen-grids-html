@@ -47,12 +47,12 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 
 <div id="page">
 
-	<!-- GRID OVERLAY START -->
-	<a href="#" id="grid-toggle" onclick="toggle_visibility('grid-overlay');"><strong>Toggle grid</strong></a>
+	<!-- GRID OVERLAY/TOGGLE START -->
+	<div id="grid-toggle"><strong>Grid:</strong> <a href="#"  onclick="toggle_visibility('grid-overlay');"><span>On</span></a></div>
 	<div id="grid-overlay" style="display: block;">
 		<span class="bgcol-1">1</span><span class="bgcol-2">2</span><span class="bgcol-3">3</span><span class="bgcol-4">4</span><span class="bgcol-5">5</span><span class="bgcol-6">6</span><span class="bgcol-7">7</span><span class="bgcol-8">8</span><span class="bgcol-9">9</span><span class="bgcol-10">10</span><span class="bgcol-11">11</span><span class="bgcol-12">12</span><span class="bgcol-13">13</span><span class="bgcol-14">14</span><span class="bgcol-15">15</span><span class="bgcol-16">16</span><span class="bgcol-17">17</span><span class="bgcol-18">18</span><span class="bgcol-19">19</span><span class="bgcol-20">20</span><span class="bgcol-21">21</span><span class="bgcol-22">22</span><span class="bgcol-23">23</span><span class="bgcol-24">24</span>
 	</div><!-- /#grid overlay -->
-	<!-- GRID OVERLAY END -->
+	<!-- GRID OVERLAY/TOGGLE END -->
 
 	<p id="skip-link">
 		<a href="#content" class="element-invisible element-focusable">Skip to content</a>
@@ -62,7 +62,7 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 		<strong>Sidebars:</strong> 
     <a href="#both" class="toggle">Both</a>
 		<a href="#first" class="toggle">First</a>
-    <a href="#last" class="toggle">Last</a>
+    <a href="#second" class="toggle">Second</a>
     <a href="#none" class="toggle">None</a>
   </header>
 
@@ -78,7 +78,7 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 		</ul>
 	</nav><!-- /nav -->
 
-	<div id="main">
+	<div id="main" class="block">
 
 		<div id="content" class="column block" role="main">
 			<a id="main-content"></a>
@@ -109,12 +109,12 @@ Available body classes. Be sure to remove the sidebar region below that may no l
 
 </div><!-- /#page -->
 
-<!-- OPTIONAL JAVASCRIPT (Sidebars toggle, Grid overlay, and fitWeird) START -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- OPTIONAL JAVASCRIPT (jQuery, Sidebars toggle, Grid overlay, and fitWeird) START -->
+<script src="js/jquery.min.js"></script>
 <script src="js/grid-overlay.js"></script>
 <script src="js/fitWeird.js"></script>
 <script src="js/layoutToggle.js"></script>
-<!-- OPTIONAL JAVASCRIPT (Sidebars toggle, Grid overlay, and fitWeird) END -->
+<!-- OPTIONAL JAVASCRIPT (jQuery, Sidebars toggle, Grid overlay, and fitWeird) END -->
 
 </body>
 </html>
